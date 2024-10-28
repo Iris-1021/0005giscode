@@ -68,7 +68,7 @@ library(ggplot2)
 
 ggplot(world_data_with_gii) +
   geom_sf(aes(fill = GII_diff)) +
-  scale_fill_gradient2(low = "green", mid = "white", high = "red", midpoint = 0, 
+  scale_fill_gradient2(low = "green", mid = "white", high = "blue", midpoint = 0, 
                        name = "Gender Inequality Difference") +
   labs(
     title = "Gender Inequality Index Difference (2010 - 2019)",
